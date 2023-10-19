@@ -1,11 +1,11 @@
 .texto{
-    margin: 24px 0;
+    margin: 12px 0;
     font-family: 'Indie Flower',sans-serif;
 
 }
 .texto label{
     font-family: 'Indie Flower',sans-serif;
-    font-size: 208px;
+    font-size: 20px;
     display: block;
     font-weight: 600;
     margin-bottom: 8px;
