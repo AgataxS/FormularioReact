@@ -7,8 +7,10 @@
     color: #ffffff;
     margin: 32px 0px;
     cursor: pointer;
+    
 }
 .boton:hover{
     color:aqua;
-
+    font-family: 'Indie Flower',sans-serif;
+    
 }

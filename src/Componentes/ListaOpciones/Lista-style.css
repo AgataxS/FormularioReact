@@ -3,18 +3,25 @@
     font-size: 18px;
     font-weight: 600;
     font-family: "Indie Flower", cursive;
-    margin-bottom: 8px;
+    margin-bottom: 80px 0px;
 }
 .lista-opciones select{
     width: 100%;
     background-color: #fff;
     box-shadow: 10px 10px 30px 0px rgba(0, 0,0,0.06);
-    padding: 24px;
+    padding: 30px 20px;
     border: none;
     font-size: 16px;
 
 }
 .lista-opciones option{
+    font-family: 'Indie Flower',sans-serif;
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.lista-opciones select{
     font-family: 'Indie Flower',sans-serif;
     font-size: 20px;
     display: block;

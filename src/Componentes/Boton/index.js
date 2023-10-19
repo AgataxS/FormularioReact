@@ -1,4 +1,4 @@
-import "Boton-Style.css"
+import "./Boton-Style.css"
 const Boton = (props) =>{
     return <button className="boton">
         {props.children}

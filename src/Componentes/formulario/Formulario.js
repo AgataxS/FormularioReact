@@ -22,10 +22,10 @@ import Boton from "../Boton"
 const Formulario=()=>{
     const envio=(evento)=>{
         evento.preventDefault();
-        console.log(envio,evento)
+       // console.log(envio,evento)
     }
     return <section className="formulario">
-        <form>
+        <form onSubmit={envio}>
             <h2>RELLENA PARA CREAR UN NUEVO PERSONAJE</h2>
             <Texto titulo="Nombre" placeholder="Ingresar Nombre"/>
             <Texto titulo="Rango" placeholder="Ingresr el rango"/>
