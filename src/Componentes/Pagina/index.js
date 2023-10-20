@@ -1,5 +1,5 @@
 import "./Pagina-style.css"
-import {useState} from "React";
+
 const Pagina=(props)=>{
     console.log(props)
     return <section className="paginaSection">

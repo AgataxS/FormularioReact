@@ -1,8 +1,9 @@
-import {useState} from React;
+import {useState} from 'react';
+import './App.css';
 import Pagina from './Componentes/Pagina/index.js';
 import Header from './Componentes/header/Header.js';
-import './App.css';
 import Formulario from './Componentes/formulario/Formulario.js';
+
 
 
 function App() {
@@ -15,11 +16,8 @@ function App() {
    <div>
     <Header/>
     {mostrarFormulario && <Formulario/>}
-    <Pagina cambiarMostrar={cambiarMostrar}></Pagina> 
-    
-    
+    <Pagina cambiarMostrar={cambiarMostrar}/> 
    </div>
-  
   );
 }
 
