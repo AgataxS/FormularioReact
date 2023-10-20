@@ -27,9 +27,9 @@ const Formulario=()=>{
     return <section className="formulario">
         <form onSubmit={envio}>
             <h2>RELLENA PARA CREAR UN NUEVO PERSONAJE</h2>
-            <Texto titulo="Nombre" placeholder="Ingresar Nombre"/>
-            <Texto titulo="Rango" placeholder="Ingresr el rango"/>
-            <Texto titulo="Foto" placeholder="Ingresar enlace de foto"/>
+            <Texto titulo="Nombre" placeholder="Ingresar Nombre" required/>
+            <Texto titulo="Rango" placeholder="Ingresr el rango" required/>
+            <Texto titulo="Foto" placeholder="Ingresar enlace de foto" required/>
             <ListaOpciones></ListaOpciones>
             <Boton>Crear</Boton>
 
